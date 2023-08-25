@@ -1,0 +1,24 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+.app-container {
+  background-color: #000000;
+  color: #00e7ff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-message {
+  text-align: center;
+  color: #00e7ff;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 4px;
+}
